@@ -1,16 +1,16 @@
 {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Cloud storage-based web media player for DLsite voice works",
     "homepage": "https://github.com/vscodev/neokikoeru",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vscodev/neokikoeru/releases/download/v1.1.1/neokikoeru-windows-amd64.zip",
-            "hash": "4212bd270633b085af091d319515a43fca744231c3245697db22fdc40f3d2341"
+            "url": "https://github.com/vscodev/neokikoeru/releases/download/v1.1.2/neokikoeru-windows-amd64.zip",
+            "hash": "3761f5d5d8c1f19a62ea90aa42c1349db4d6a52356befc1f04847f0f060a57b6"
         },
         "arm64": {
-            "url": "https://github.com/vscodev/neokikoeru/releases/download/v1.1.1/neokikoeru-windows-arm64.zip",
-            "hash": "e598213931766c0710e12e6dc7410994086f0db936dda5a2c6d80f781c69c6ae"
+            "url": "https://github.com/vscodev/neokikoeru/releases/download/v1.1.2/neokikoeru-windows-arm64.zip",
+            "hash": "feeee4b773972c1a2ee36808d268de778cffb17c9d2c4511538b96e0ffae65b3"
         }
     },
     "bin": [
