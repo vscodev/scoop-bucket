@@ -1,0 +1,19 @@
+{
+    "version": "{{.Version}}",
+    "description": "Cloud storage-based web media player for DLsite voice works",
+    "homepage": "https://github.com/vscodev/neokikoeru",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "{{.DownloadUrlWindowsAmd64}}",
+            "hash": "{{.Sha256WindowsAmd64}}"
+        },
+        "arm64": {
+            "url": "{{.DownloadUrlWindowsArm64}}",
+            "hash": "{{.Sha256WindowsArm64}}"
+        }
+    },
+    "bin": [
+        "neokikoeru.exe"
+    ]
+}
