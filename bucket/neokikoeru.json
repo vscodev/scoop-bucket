@@ -1,0 +1,19 @@
+{
+    "version": "2.6.0",
+    "description": "Self-hosted streaming media server for DLsite voice works",
+    "homepage": "https://github.com/vscodev/neokikoeru",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vscodev/neokikoeru/releases/download/v2.6.0/neokikoeru-windows-amd64.zip",
+            "hash": "63597ff8bc0d1d226c1b00456705a2f856282d7b594355734ea8729aa9736738"
+        },
+        "arm64": {
+            "url": "https://github.com/vscodev/neokikoeru/releases/download/v2.6.0/neokikoeru-windows-arm64.zip",
+            "hash": "0121b2f05226994529490a9a36b0c732825c88d4964a6cc9e5546159e39a602e"
+        }
+    },
+    "bin": [
+        "neokikoeru.exe"
+    ]
+}
