@@ -1,0 +1,19 @@
+{
+    "version": "{{.Version}}",
+    "description": "A lightweight WebDAV server that supports multiple storages",
+    "homepage": "https://github.com/vscodev/drive2dav",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "{{.DownloadUrlWindowsAmd64}}",
+            "hash": "{{.Sha256WindowsAmd64}}"
+        },
+        "arm64": {
+            "url": "{{.DownloadUrlWindowsArm64}}",
+            "hash": "{{.Sha256WindowsArm64}}"
+        }
+    },
+    "bin": [
+        "drive2dav.exe"
+    ]
+}
